@@ -1,0 +1,78 @@
+                        <form>
+                            <label for="email" class="hidden-label">Email</label>
+                            <input type="email" name="email" id="email" placeholder="Email">
+
+                            <label for="password" class="hidden-label">Password</label>
+                            <input type="password" name="password" id="password" placeholder="Password">
+
+                            <select>
+                                <option>Initially view...</option>
+                                <option>My Profile</option>
+                                <option>Inbox</option>
+                                <option>Account Settings</option>
+                            </select>
+
+                            <input type="submit" value="Sign In">
+
+                            <label>
+                                <input type="checkbox" name="remember" checked="checked" value="yes">
+                                <span class="checkbox-text">Stay signed in</span>
+                            </label>
+
+                        </form>
+
+                        <br> <br>
+                        
+                        <table class="grocery-list">
+                            <thead>
+                                <tr>
+                                    <th class="col-item-name">Item Name</th>
+                                    <th class="col-quantity">Quantity</th>
+                                    <th class="col-price">Price</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Oranges</td>
+                                    <td>5</td>
+                                    <td>$3.00</td>
+                                </tr>
+                                <tr>
+                                    <td>Celery</td>
+                                    <td>2</td>
+                                    <td>$2.50</td>
+                                </tr>
+                                <tr>
+                                    <td>Garlic</td>
+                                    <td>2</td>
+                                    <td>$1.90</td>
+                                </tr>
+                                <tr>
+                                    <td>Bananas</td>
+                                    <td>6</td>
+                                    <td>$2.99</td>
+                                </tr>
+                                <tr>
+                                    <td>Onions</td>
+                                    <td>4</td>
+                                    <td>$3.00</td>
+                                </tr>
+                                <tr>
+                                    <td>Very long awkwardly named yet still delicious item here</td>
+                                    <td>4</td>
+                                    <td>$3.00</td>
+                                </tr>
+                                <tr>
+                                    <td>Carrots</td>
+                                    <td>12</td>
+                                    <td>$2.99</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        
+                        
+
+                        <i><p class="gg">Squirrels are generally small rodents with slender bodies, bushy tails and large eyes. In general, 
+                            their fur is short, soft and silky, and ranges in thickness from species to species. The color of 
+                            their fur is also highly variable and can be whitish, gray, yellow, red, brown, or even black.</p></i>
+                </div>
